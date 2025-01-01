@@ -31,7 +31,15 @@ public class MainHook implements IXposedHookLoadPackage {
             "org.telegram.messenger.web",
             "org.telegram.messenger.beta",
             // 第三方包名
-            "org.telegram.plus"
+            "org.telegram.plus",
+            "org.telegram.group",
+            "org.telegram.mdgram",
+            "nekox.messenger",
+            "tw.nekomimi.nekogram",
+            "org.bgram",
+            "ir.ilmili.telegraph",
+            "catogram.app",
+            "com.flygram.messenger"
     ));
 
     // 定义一个方法，处理加载包的事件
